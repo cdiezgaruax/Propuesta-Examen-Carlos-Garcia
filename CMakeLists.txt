@@ -4,4 +4,6 @@ project(Propuesta_Examen_Carlos_Garcia)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Propuesta_Examen_Carlos_Garcia
-    main.cpp)
+    main.cpp
+        "Triple pitagórico/triple_pitagorico.h"
+        "Triple pitagórico/triple_pitagorico.cpp")
